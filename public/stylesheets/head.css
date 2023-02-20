@@ -1,0 +1,135 @@
+.topbar{
+    background-color: #ec4141;
+    height: 60px;
+    position: relative;
+}
+.wrap{
+    margin: 0 20px;
+}
+.wrap{
+    width: 176px;
+    float: left;
+}
+.wrap h1{
+    cursor: pointer;
+}
+.wrap h1 span{
+    padding-right: 20px;
+    text-indent: -99999px;
+    float: left;
+}
+.wrap .topsvg {
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 142px;
+    height: 60px;
+}
+
+.wrap .topfl {
+    width: 142px;
+    height: 25px
+}
+
+.wrap .topplh {
+    opacity: 0;
+    color: #d43c33
+}
+
+.wrap .topfr {
+    border: 1px
+}
+
+.wrap .topbton {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    color: #d43c33;
+    background-color: #fff;
+    border-radius: 37.5%/100%
+}
+
+.wrap .topbton:after {
+    border-color: #fff;
+    border-radius: 37.5%/100%
+}
+.wrap_left{
+    width: 10.7%;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+.wrap_right{
+    width: 89.3%;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+.wrap_right .search{
+    position: absolute;
+    height: 32px;
+    top: 18%;
+    left: 120px;
+}
+.search .search_input{
+    background-color: #e33e3e;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 0px;
+    color: #fff;
+    width: 160px;
+}
+.search input[type=text]{
+    border: 0;
+    background-color: #e33e3e;
+    width: 125px;
+    color: #ffffff;
+    padding-left: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 11px;
+    left: 22px;
+}
+/*更改提示文字的样式*/
+.search input[type=text]::-webkit-input-placeholder{
+    color: #f09b9b;
+}
+.search .search_input svg{
+    margin-left: 2px;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+.login_in{
+    float: right;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.login_in p{
+    float: left;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.login_in p:nth-child(1){
+    background-color: #e0e0e0;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+.login_in p:nth-child(1) svg{
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+.login_in p:nth-child(2){
+    line-height: 26px;
+}
+.login_in p:nth-child(2):hover{
+    color: #fff;
+}
